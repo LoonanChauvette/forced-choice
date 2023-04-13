@@ -166,7 +166,19 @@ pluggy = ">=0.12,<2.0"
 [package.extras]
 testing = ["argcomplete", "attrs (>=19.2.0)", "hypothesis (>=3.56)", "mock", "nose", "pygments (>=2.7.2)", "requests", "xmlschema"]
 
+[[package]]
+name = "python-vlc"
+version = "3.0.18121"
+description = "VLC bindings for python."
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "python-vlc-3.0.18121.tar.gz", hash = "sha256:24550314a3e6ed55fd347b009491c98b865f9dfa05a92e889d7b0a2210e7485b"},
+    {file = "python_vlc-3.0.18121-py3-none-any.whl", hash = "sha256:b8f4bdea22d363377c51996db94cac38d02df02fee9b79c03f1840ff6d376455"},
+]
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "d3552115e2b933111c3fe9221464d25290c70367f710f468894d4edff5db7d56"
+content-hash = "ec711f15119d35c940a055b40d05350bf3006151e06efe2263a7200fde59f119"
