@@ -1,6 +1,5 @@
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 from comtypes import CLSCTX_ALL
-import numpy as np
 
 
 class VolumeManager:
